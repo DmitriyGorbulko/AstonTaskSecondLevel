@@ -12,9 +12,13 @@ public class UserDAOImpl implements UserDAO {
     private static final Logger logger = Logger.getLogger(UserDAOImpl.class);
     private final SessionFactory sessionFactory;
 
+    public UserDAOImpl(SessionFactory sessionFactory) {
+        this.sessionFactory = sessionFactory;
+    }
+
     public UserDAOImpl() {
         Configuration configuration = new Configuration().configure("hibernate.cfg.xml");
-        sessionFactory = configuration.buildSessionFactory();
+        this.sessionFactory = configuration.buildSessionFactory();
     }
 
     @Override

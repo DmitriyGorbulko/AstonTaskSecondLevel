@@ -2,14 +2,18 @@ package org.example.module.second.services;
 
 import org.apache.log4j.Logger;
 import org.example.module.second.dao.UserDAO;
-import org.example.module.second.dao.UserDAOImpl;
 import org.example.module.second.entities.User;
 
 
 public class UserServiceImpl implements UserService {
+    private final UserDAO dao;
 
-    private final UserDAO dao = new UserDAOImpl();
+    public UserServiceImpl(UserDAO dao) {
+        this.dao = dao;
+    }
     private static final Logger logger = Logger.getLogger(UserServiceImpl.class);
+
+
 
     @Override
     public void createUser(String name, String email, int age) {

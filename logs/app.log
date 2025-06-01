@@ -224,3 +224,148 @@ java.lang.IllegalStateException: Cannot get a connection as the driver manager i
 2025-05-25 21:17:52 INFO  org.example.module.second.dao.UserDAOImpl - Code: 200 | Method: findById | User fetched with ID = 7
 2025-05-25 21:17:52 INFO  org.example.module.second.dao.UserDAOImpl - Code: 200 | Method: delete | User deleted with ID = 7
 2025-05-25 21:18:00 INFO  org.example.module.second.dao.UserDAOImpl - Code: 200 | Method: findByEmail | Lookup for email = test4
+2025-06-01 21:11:00 WARN  org.example.module.second.services.UserServiceImpl - User with email already exists: test@example.com [createUser]
+2025-06-01 21:11:00 WARN  org.example.module.second.services.UserServiceImpl - Attempt to use existing email: existing@example.com [updateUser]
+2025-06-01 21:11:00 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.6.Final
+2025-06-01 22:42:06 WARN  org.example.module.second.services.UserServiceImpl - User with email already exists: test@example.com [createUser]
+2025-06-01 22:42:06 WARN  org.example.module.second.services.UserServiceImpl - Attempt to use existing email: existing@example.com [updateUser]
+2025-06-01 22:42:06 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.6.Final
+2025-06-01 22:43:53 WARN  org.example.module.second.services.UserServiceImpl - User with email already exists: test@example.com [createUser]
+2025-06-01 22:43:53 WARN  org.example.module.second.services.UserServiceImpl - Attempt to use existing email: existing@example.com [updateUser]
+2025-06-01 22:43:53 INFO  org.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-06-01 22:43:53 INFO  org.testcontainers.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-06-01 22:43:53 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.6.Final
+2025-06-01 22:43:54 INFO  org.testcontainers.dockerclient.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-06-01 22:43:54 WARN  org.testcontainers.dockerclient.DockerClientProviderStrategy - windows is currently not supported
+2025-06-01 22:43:54 INFO  org.testcontainers.dockerclient.DockerMachineClientProviderStrategy - docker-machine executable was not found on PATH ([C:\Program Files\Python38\Scripts\, C:\Program Files\Python38\, C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin, C:\Program Files (x86)\Windows Resource Kits\Tools\, C:\Windows\system32, C:\Windows, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files\dotnet\, C:\Program Files\Microsoft SQL Server\130\Tools\Binn\, C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\, C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR, C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\, C:\Program Files\Microsoft SQL Server\150\Tools\Binn\, C:\Program Files\Microsoft SQL Server\150\DTS\Binn\, C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\, C:\Program Files\Azure Data Studio\bin, C:\Program Files\Git\cmd, C:\Program Files\nodejs\, C:\Program Files (x86)\GtkSharp\2.12\bin, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\php, C:\ProgramData\chocolatey\bin, C:\Program Files\Docker\Docker\resources\bin, D:\Matlab\runtime\win64, D:\Matlab\bin, D:\python\Scripts\, D:\python\, C:\Users\Dmitry Gorbulko\AppData\Local\Programs\Python\Python312\Scripts\, C:\Users\Dmitry Gorbulko\AppData\Local\Programs\Python\Python312\, C:\Program Files\MySQL\MySQL Shell 8.0\bin\, C:\Users\Dmitry Gorbulko\AppData\Local\Microsoft\WindowsApps, C:\Users\Dmitry Gorbulko\.dotnet\tools, C:\Program Files\Azure Data Studio\bin, C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.3\bin, C:\Users\Dmitry Gorbulko\AppData\Local\gitkraken\bin, C:\Users\Dmitry Gorbulko\AppData\Local\GitHubDesktop\bin, C:\Users\Dmitry Gorbulko\AppData\Local\nvs\, C:\Java\Java\\bin, C:\Users\Dmitry Gorbulko\AppData\Local\JetBrains\Toolbox\scripts, C:\Users\Dmitry Gorbulko\.dotnet\tools, C:\Users\Dmitry Gorbulko\AppData\Local\Programs\Microsoft VS Code\bin, C:\Users\Dmitry Gorbulko\AppData\Roaming\npm, C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.4\bin, , C:\php, D:\idea\IntelliJ IDEA Community Edition 2024.1.2\bin, , D:\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin])
+2025-06-01 22:43:54 ERROR org.testcontainers.dockerclient.DockerClientProviderStrategy - Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+	NpipeSocketClientProviderStrategy: failed with exception InvalidConfigurationException (windows containers are currently not supported)As no valid configuration was found, execution cannot continue.
+See https://java.testcontainers.org/on_failure.html for more details.
+2025-06-01 22:44:59 WARN  org.example.module.second.services.UserServiceImpl - User with email already exists: test@example.com [createUser]
+2025-06-01 22:44:59 WARN  org.example.module.second.services.UserServiceImpl - Attempt to use existing email: existing@example.com [updateUser]
+2025-06-01 22:44:59 INFO  org.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-06-01 22:44:59 INFO  org.testcontainers.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-06-01 22:44:59 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.6.Final
+2025-06-01 22:45:00 INFO  org.testcontainers.dockerclient.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-06-01 22:45:00 WARN  org.testcontainers.dockerclient.DockerClientProviderStrategy - windows is currently not supported
+2025-06-01 22:45:00 INFO  org.testcontainers.dockerclient.DockerMachineClientProviderStrategy - docker-machine executable was not found on PATH ([C:\Program Files\Python38\Scripts\, C:\Program Files\Python38\, C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin, C:\Program Files (x86)\Windows Resource Kits\Tools\, C:\Windows\system32, C:\Windows, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files\dotnet\, C:\Program Files\Microsoft SQL Server\130\Tools\Binn\, C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\, C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR, C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\, C:\Program Files\Microsoft SQL Server\150\Tools\Binn\, C:\Program Files\Microsoft SQL Server\150\DTS\Binn\, C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\, C:\Program Files\Azure Data Studio\bin, C:\Program Files\Git\cmd, C:\Program Files\nodejs\, C:\Program Files (x86)\GtkSharp\2.12\bin, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\php, C:\ProgramData\chocolatey\bin, C:\Program Files\Docker\Docker\resources\bin, D:\Matlab\runtime\win64, D:\Matlab\bin, D:\python\Scripts\, D:\python\, C:\Users\Dmitry Gorbulko\AppData\Local\Programs\Python\Python312\Scripts\, C:\Users\Dmitry Gorbulko\AppData\Local\Programs\Python\Python312\, C:\Program Files\MySQL\MySQL Shell 8.0\bin\, C:\Users\Dmitry Gorbulko\AppData\Local\Microsoft\WindowsApps, C:\Users\Dmitry Gorbulko\.dotnet\tools, C:\Program Files\Azure Data Studio\bin, C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.3\bin, C:\Users\Dmitry Gorbulko\AppData\Local\gitkraken\bin, C:\Users\Dmitry Gorbulko\AppData\Local\GitHubDesktop\bin, C:\Users\Dmitry Gorbulko\AppData\Local\nvs\, C:\Java\Java\\bin, C:\Users\Dmitry Gorbulko\AppData\Local\JetBrains\Toolbox\scripts, C:\Users\Dmitry Gorbulko\.dotnet\tools, C:\Users\Dmitry Gorbulko\AppData\Local\Programs\Microsoft VS Code\bin, C:\Users\Dmitry Gorbulko\AppData\Roaming\npm, C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.4\bin, , C:\php, D:\idea\IntelliJ IDEA Community Edition 2024.1.2\bin, , D:\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin])
+2025-06-01 22:45:00 ERROR org.testcontainers.dockerclient.DockerClientProviderStrategy - Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+	NpipeSocketClientProviderStrategy: failed with exception InvalidConfigurationException (windows containers are currently not supported)As no valid configuration was found, execution cannot continue.
+See https://java.testcontainers.org/on_failure.html for more details.
+2025-06-01 23:03:32 WARN  org.example.module.second.services.UserServiceImpl - User with email already exists: test@example.com [createUser]
+2025-06-01 23:03:32 WARN  org.example.module.second.services.UserServiceImpl - Attempt to use existing email: existing@example.com [updateUser]
+2025-06-01 23:03:32 INFO  org.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-06-01 23:03:32 INFO  org.testcontainers.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-06-01 23:03:32 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.6.Final
+2025-06-01 23:03:33 INFO  org.testcontainers.dockerclient.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-06-01 23:05:23 WARN  org.example.module.second.services.UserServiceImpl - User with email already exists: test@example.com [createUser]
+2025-06-01 23:05:23 WARN  org.example.module.second.services.UserServiceImpl - Attempt to use existing email: existing@example.com [updateUser]
+2025-06-01 23:05:23 INFO  org.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-06-01 23:05:23 INFO  org.testcontainers.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-06-01 23:05:23 INFO  org.testcontainers.dockerclient.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-06-01 23:05:24 INFO  org.testcontainers.dockerclient.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-06-01 23:05:24 INFO  org.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-06-01 23:05:24 INFO  org.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 26.1.4
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 7623 MB
+2025-06-01 23:05:24 INFO  tc.testcontainers/ryuk:0.5.1 - Pulling docker image: testcontainers/ryuk:0.5.1. Please be patient; this may take some time but only needs to be done once.
+2025-06-01 23:05:27 INFO  tc.testcontainers/ryuk:0.5.1 - Starting to pull image
+2025-06-01 23:05:27 INFO  tc.testcontainers/ryuk:0.5.1 - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2025-06-01 23:05:28 INFO  tc.testcontainers/ryuk:0.5.1 - Pulling image layers:  2 pending,  1 downloaded,  0 extracted, (334 KB/? MB)
+2025-06-01 23:05:29 INFO  tc.testcontainers/ryuk:0.5.1 - Pulling image layers:  1 pending,  2 downloaded,  0 extracted, (5 MB/? MB)
+2025-06-01 23:05:29 INFO  tc.testcontainers/ryuk:0.5.1 - Pulling image layers:  0 pending,  3 downloaded,  0 extracted, (5 MB/5 MB)
+2025-06-01 23:05:29 INFO  tc.testcontainers/ryuk:0.5.1 - Pulling image layers:  0 pending,  3 downloaded,  1 extracted, (5 MB/5 MB)
+2025-06-01 23:05:29 INFO  tc.testcontainers/ryuk:0.5.1 - Pulling image layers:  0 pending,  3 downloaded,  2 extracted, (5 MB/5 MB)
+2025-06-01 23:05:30 INFO  tc.testcontainers/ryuk:0.5.1 - Pulling image layers:  0 pending,  3 downloaded,  3 extracted, (5 MB/5 MB)
+2025-06-01 23:05:30 INFO  tc.testcontainers/ryuk:0.5.1 - Pull complete. 3 layers, pulled in 3s (downloaded 5 MB at 1 MB/s)
+2025-06-01 23:05:30 INFO  tc.testcontainers/ryuk:0.5.1 - Image testcontainers/ryuk:0.5.1 pull took PT5.8163885S
+2025-06-01 23:05:30 INFO  tc.testcontainers/ryuk:0.5.1 - Creating container for image: testcontainers/ryuk:0.5.1
+2025-06-01 23:05:30 INFO  tc.testcontainers/ryuk:0.5.1 - Container testcontainers/ryuk:0.5.1 is starting: d95483b02173bcfa8c94d56e1ba174de6a4dd71bdd23c2de36cafadb3e6a4c53
+2025-06-01 23:05:31 INFO  tc.testcontainers/ryuk:0.5.1 - Container testcontainers/ryuk:0.5.1 started in PT1.0771703S
+2025-06-01 23:05:31 INFO  org.testcontainers.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-06-01 23:05:31 INFO  org.testcontainers.DockerClientFactory - Checking the system...
+2025-06-01 23:05:31 INFO  org.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-06-01 23:05:31 INFO  tc.postgres:16 - Pulling docker image: postgres:16. Please be patient; this may take some time but only needs to be done once.
+2025-06-01 23:05:33 INFO  tc.postgres:16 - Starting to pull image
+2025-06-01 23:05:33 INFO  tc.postgres:16 - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2025-06-01 23:05:34 INFO  tc.postgres:16 - Pulling image layers: 13 pending,  1 downloaded,  0 extracted, (1 KB/? MB)
+2025-06-01 23:05:35 INFO  tc.postgres:16 - Pulling image layers: 12 pending,  2 downloaded,  0 extracted, (6 MB/? MB)
+2025-06-01 23:05:36 INFO  tc.postgres:16 - Pulling image layers: 11 pending,  3 downloaded,  0 extracted, (8 MB/? MB)
+2025-06-01 23:05:37 INFO  tc.postgres:16 - Pulling image layers: 10 pending,  4 downloaded,  0 extracted, (15 MB/? MB)
+2025-06-01 23:05:38 INFO  tc.postgres:16 - Pulling image layers:  9 pending,  5 downloaded,  0 extracted, (20 MB/? MB)
+2025-06-01 23:05:39 INFO  tc.postgres:16 - Pulling image layers:  8 pending,  6 downloaded,  0 extracted, (25 MB/? MB)
+2025-06-01 23:05:39 INFO  tc.postgres:16 - Pulling image layers:  7 pending,  7 downloaded,  0 extracted, (27 MB/? MB)
+2025-06-01 23:05:40 INFO  tc.postgres:16 - Pulling image layers:  6 pending,  8 downloaded,  0 extracted, (30 MB/? MB)
+2025-06-01 23:05:41 INFO  tc.postgres:16 - Pulling image layers:  5 pending,  9 downloaded,  0 extracted, (38 MB/? MB)
+2025-06-01 23:05:42 INFO  tc.postgres:16 - Pulling image layers:  4 pending, 10 downloaded,  0 extracted, (43 MB/? MB)
+2025-06-01 23:05:43 INFO  tc.postgres:16 - Pulling image layers:  3 pending, 11 downloaded,  0 extracted, (48 MB/? MB)
+2025-06-01 23:05:43 INFO  tc.postgres:16 - Pulling image layers:  2 pending, 12 downloaded,  0 extracted, (48 MB/? MB)
+2025-06-01 23:05:43 INFO  tc.postgres:16 - Pulling image layers:  1 pending, 13 downloaded,  0 extracted, (51 MB/? MB)
+2025-06-01 23:05:47 INFO  tc.postgres:16 - Pulling image layers:  1 pending, 13 downloaded,  1 extracted, (74 MB/? MB)
+2025-06-01 23:05:47 INFO  tc.postgres:16 - Pulling image layers:  1 pending, 13 downloaded,  2 extracted, (74 MB/? MB)
+2025-06-01 23:05:48 INFO  tc.postgres:16 - Pulling image layers:  1 pending, 13 downloaded,  3 extracted, (77 MB/? MB)
+2025-06-01 23:05:48 INFO  tc.postgres:16 - Pulling image layers:  1 pending, 13 downloaded,  4 extracted, (77 MB/? MB)
+2025-06-01 23:05:49 INFO  tc.postgres:16 - Pulling image layers:  1 pending, 13 downloaded,  5 extracted, (84 MB/? MB)
+2025-06-01 23:05:49 INFO  tc.postgres:16 - Pulling image layers:  1 pending, 13 downloaded,  6 extracted, (86 MB/? MB)
+2025-06-01 23:05:49 INFO  tc.postgres:16 - Pulling image layers:  1 pending, 13 downloaded,  7 extracted, (87 MB/? MB)
+2025-06-01 23:05:49 INFO  tc.postgres:16 - Pulling image layers:  1 pending, 13 downloaded,  8 extracted, (87 MB/? MB)
+2025-06-01 23:06:00 INFO  tc.postgres:16 - Pulling image layers:  0 pending, 14 downloaded,  8 extracted, (147 MB/148 MB)
+2025-06-01 23:06:09 INFO  tc.postgres:16 - Pulling image layers:  0 pending, 14 downloaded,  9 extracted, (148 MB/148 MB)
+2025-06-01 23:06:09 INFO  tc.postgres:16 - Pulling image layers:  0 pending, 14 downloaded, 10 extracted, (148 MB/148 MB)
+2025-06-01 23:06:09 INFO  tc.postgres:16 - Pulling image layers:  0 pending, 14 downloaded, 11 extracted, (148 MB/148 MB)
+2025-06-01 23:06:09 INFO  tc.postgres:16 - Pulling image layers:  0 pending, 14 downloaded, 12 extracted, (148 MB/148 MB)
+2025-06-01 23:06:10 INFO  tc.postgres:16 - Pulling image layers:  0 pending, 14 downloaded, 13 extracted, (148 MB/148 MB)
+2025-06-01 23:06:10 INFO  tc.postgres:16 - Pulling image layers:  0 pending, 14 downloaded, 14 extracted, (148 MB/148 MB)
+2025-06-01 23:06:10 INFO  tc.postgres:16 - Image postgres:16 pull took PT38.8080642S
+2025-06-01 23:06:10 INFO  tc.postgres:16 - Pull complete. 14 layers, pulled in 36s (downloaded 148 MB at 4 MB/s)
+2025-06-01 23:06:10 INFO  tc.postgres:16 - Creating container for image: postgres:16
+2025-06-01 23:06:12 INFO  tc.postgres:16 - Container postgres:16 is starting: b87719e8f38690b88fe102f542e699a0e0c7d67c2fd314818f815effabb1a24b
+2025-06-01 23:06:15 INFO  tc.postgres:16 - Container postgres:16 started in PT5.3131953S
+2025-06-01 23:06:15 INFO  tc.postgres:16 - Container is started (JDBC URL: jdbc:postgresql://localhost:54605/testdb?loggerLevel=OFF)
+2025-06-01 23:06:15 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.6.Final
+2025-06-01 23:06:15 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-06-01 23:06:15 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-06-01 23:06:16 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2025-06-01 23:06:16 INFO  org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:54605/testdb?loggerLevel=OFF]
+2025-06-01 23:06:16 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=test}
+2025-06-01 23:06:16 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-06-01 23:06:16 INFO  org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2025-06-01 23:06:16 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-06-01 23:06:17 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-01 23:06:17 INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@e5c5e6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-06-01 23:06:17 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-06-01 23:06:17 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - table "users" does not exist, skipping
+2025-06-01 23:06:17 INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@218f2f51] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-06-01 23:06:17 INFO  org.example.module.second.dao.UserDAOImpl - Code: 200 | Method: save | User saved with ID = 1
+2025-06-01 23:06:18 INFO  org.example.module.second.dao.UserDAOImpl - Code: 200 | Method: findByEmail | Lookup for email = new@example.com
+2025-06-01 23:06:18 INFO  org.example.module.second.dao.UserDAOImpl - Code: 200 | Method: updateEmail | Email updated for ID = 1
+2025-06-01 23:06:18 INFO  org.example.module.second.dao.UserDAOImpl - Code: 200 | Method: findById | User fetched with ID = 1
+2025-06-01 23:06:18 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-06-01 23:06:18 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-06-01 23:06:18 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2025-06-01 23:06:18 INFO  org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:54605/testdb?loggerLevel=OFF]
+2025-06-01 23:06:18 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=test}
+2025-06-01 23:06:18 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-06-01 23:06:18 INFO  org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2025-06-01 23:06:18 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-06-01 23:06:18 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-01 23:06:18 INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@642ec6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-06-01 23:06:18 INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@656302c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-06-01 23:06:18 INFO  org.example.module.second.dao.UserDAOImpl - Code: 200 | Method: save | User saved with ID = 1
+2025-06-01 23:06:18 INFO  org.example.module.second.dao.UserDAOImpl - Code: 200 | Method: delete | User deleted with ID = 1
+2025-06-01 23:06:18 INFO  org.example.module.second.dao.UserDAOImpl - Code: 200 | Method: findById | User fetched with ID = 1
+2025-06-01 23:06:18 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-06-01 23:06:18 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-06-01 23:06:18 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2025-06-01 23:06:18 INFO  org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:54605/testdb?loggerLevel=OFF]
+2025-06-01 23:06:18 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=test}
+2025-06-01 23:06:18 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-06-01 23:06:18 INFO  org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2025-06-01 23:06:18 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-06-01 23:06:18 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-01 23:06:18 INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@291028d7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-06-01 23:06:18 INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2b4954a4] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-06-01 23:06:18 INFO  org.example.module.second.dao.UserDAOImpl - Code: 200 | Method: save | User saved with ID = 1
+2025-06-01 23:06:18 INFO  org.example.module.second.dao.UserDAOImpl - Code: 200 | Method: findById | User fetched with ID = 1
